@@ -1,0 +1,46 @@
+p.coucou{
+    background-color: brown;  
+    color: black;  
+}
+
+
+h1.coco{
+
+    color:black;
+    padding-left: 800px;
+    font-size: 50px;
+   
+
+}
+
+body{
+background-color: grey;
+
+}
+
+
+nav.menu-nav ul li.btn{
+list-style-type: none;
+display:inline-block
+}
+
+
+nav.menu-nav ul li.btn a{
+color: white;
+text-decoration: none;
+background-color: turquoise;
+padding: 10px;
+font-size: 25px;
+} 
+
+
+nav.menu-nav ul li.btn:hover a{
+    color: turquoise;
+    background-color: black;
+    transition: 0.5s;
+}
+
+a.mon{
+list-style-type: none;
+
+}
