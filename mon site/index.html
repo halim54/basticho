@@ -1,59 +1,105 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title> Youtube  </title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-
-<nav class="menu-nav">
-    <ul>
+  <head>
+    <title>Youtube</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <nav class="menu-nav">
+      <ul>
         <li class="btn">
-            <a href="#" target="BLANK">
-                Accueil
-            </a>
+          <a href="#" target="BLANK"> Accueil </a>
         </li>
 
         <li class="btn">
-            <a href="contact.html" target="BLANK">
-                Contactez-nous  
-            </a>
+          <a href="contact.html" target="BLANK"> Contactez-nous </a>
         </li>
 
         <li class="btn">
-            <a href="news.html" target="BLANK">
-                News
-            </a>
-
-
-
+          <a href="news.html" target="BLANK"> News </a>
         </li>
+      </ul>
 
-    </ul>
+      <!-- FLAG SELECTOR -->
+      <div class="dropdown">
+        <button class="dropbtn glow-on-hover">Select Language</button>
+        <div class="dropdown-content">
+          <p class="flag-wrapper glow-on-hover"  id="fr">
+            <img
+              class="flag"
+              src="https://lipis.github.io/flag-icon-css/flags/4x3/fr.svg"
+              alt=" Flag"
+            />
+            Francais
+          </p>
+          <p class="flag-wrapper glow-on-hover" id="en">
+            <img
+              class="flag"
+              src="https://lipis.github.io/flag-icon-css/flags/4x3/gb-eng.svg"
+              alt="Flag"
+            />
+            Anglais
+          </p>
+          <p class="flag-wrapper glow-on-hover" id="de">
+            <img
+              class="flag"
+              src="https://lipis.github.io/flag-icon-css/flags/4x3/de.svg"
+              alt="Flag"
+            />Allemand
+          </p>
+        </div>
+      </div>
+    </nav>
 
+    <h1 class="coco" id="welcome">BONJOURS !!!!</h1>
 
-</nav>
+    <p class="coucou">bonjour et bienvenue sur mon site</p>
 
-<h1 class="coco">
-    
-    BONJOURS !!!! 
+    <a href="https://www.w3schools.com/html/default.asp" target="BLANK">
+      CLIQUE ICI !!!
+    </a>
 
-</h1>
+    <img
+      src="https://vignette.wikia.nocookie.net/shingekinokyojin/images/a/a1/Eren_Jaeger_%28Anime%29_character_image.png/revision/latest?cb=20190327163909"
+      width="800"
+      height="800"
+    />
+  </body>
 
+  <script>
+    var translations = {
+      en: "Welcome to my website",
+      fr: "Bienvenue sur mon site",
+      de: "Willkommen auf meiner Website",
+    };
 
-<p class="coucou">
-    
-    bonjour et bienvenue sur mon site 
+    // default case: initialization
+    localStorage.setItem("Lang", "fr");
+    document.getElementById("welcome").innerHTML = translations.fr;
 
-</p>
+    // fr
+    function clickHandlerFR() {
+      localStorage.setItem("Lang", "fr");
+      document.getElementById("welcome").innerHTML = translations.fr;
+    }
+    var element_fr = document.getElementById("fr");
+    element_fr.addEventListener("click", clickHandlerFR);
 
+    // en
+    function clickHandlerEN() {
+      localStorage.setItem("Lang", "en");
+      document.getElementById("welcome").innerHTML = translations.en;
+    }
+    var element_fr = document.getElementById("en");
+    element_fr.addEventListener("click", clickHandlerEN);
 
-<a href="https://www.w3schools.com/html/default.asp" target="BLANK">
-CLIQUE ICI !!!
-</a>
-
-<img src="https://vignette.wikia.nocookie.net/shingekinokyojin/images/a/a1/Eren_Jaeger_%28Anime%29_character_image.png/revision/latest?cb=20190327163909" width="800" height="800">
-
-</body>
+    // de
+    function clickHandlerDE() {
+      localStorage.setItem("Lang", "de");
+      document.getElementById("welcome").innerHTML = translations.de;
+    }
+    var element_fr = document.getElementById("de");
+    element_fr.addEventListener("click", clickHandlerDE);
+  </script>
 </html>
