@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+     <header class="main-headd">
+         <nav>
+            <a class="lo" href="index.html">NANCY</a>
+             <ul>
+                 <li><a href="#">City</a></li>
+                 <li><a href="#">Coronavirus</a></li>
+                 <li><a href="#">Contact</a></li>
+             </ul>
+         </nav>
+     
+
+     </header>  
+
+     <section class="lol">
+
+     </section>
+
+
+    
+</body>
+</html>
+
+
