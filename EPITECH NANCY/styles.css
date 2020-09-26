@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 90vh;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+    
+
+.lo{
+    font-size: 2.6rem;
+    cursor: pointer;
+    flex: 2 1 40rem;
+}
+
+.GESTE{
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    font-size: 4.3rem;
+    color:white;
+    position: relative;
+}
+
+
+h2{
+    font-size: 4.8rem;
+}
+
+
+h3{
+    font-size: 3rem;
+}
+
+
+h4,h5 {
+    font-size: 2.6rem;
+}
+
+nav{
+
+    font-size: 2rem;
+}
+a {
+    color:#ffffff ;
+    text-decoration: none;
+}
+
+/* HEAD */
+.main-headd {
+    background:linear-gradient(
+    to right,
+     #190392,
+     #ffffff,
+     #ee1f1f);
+}
+
+.main-head {
+    background:linear-gradient(
+    to right,
+    #190392,
+    #ffffff,
+    #ee1f1f);
+}
+
+.main-headdd{
+    background:linear-gradient(
+    to right,
+    #190392,
+    #ffffff,
+    #ee1f1f);
+}
+
+
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+*
+/* HERO */
+.lol{
+    background: url(https://www.leparisien.fr/resizer/ZEvojSdmUvBbUiqNQ0Tt-mxnAyw=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/37ZORK2JC4KIIEH7YVSFTNZSJY.jpg) no-repeat;
+    min-height: 90vh;
+    background-size: 100%;
+
+}
+.cont{
+    background:black;
+    min-height: 90vh;
+    background-size: 100%; 
+    background-position: center;
+    font-size: 3rem;
+    text-align: left;
+    color: #ffffff;
+    font-family: Poppins,sans-serif;
+    
+    }
+.hero{
+    min-height: 90vh;
+    background: linear-gradient(rgb(0 , 0 , 0, 0.6), transparent), url(https://cdn.radiofrance.fr/s3/cruiser-production/2019/05/deca3a43-3783-4c65-b0b9-76e07c86a0eb/870x489_maxnewsworldfour555169.jpg)no-repeat center;
+    background-size: cover;
+    background-position:bottom ;
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h3{
+    padding: 4rem;
+}
+
+.button {
+    padding: 2rem 6rem;
+    background:red ;
+    color: #ffffff;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.texte1{
+    position: relative;
+    right: 150px;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+.texte2{
+    position: relative;
+    right: 150px;
+    bottom: 70px;
+    color: #ffffff
+    ;
+    font-weight: bold;
+}
+
+.image3{
+    position: relative;
+    right:300px;
+    top: 100px;
+}
+
+
+.image{
+    position: relative;
+    top: 100px;
+}
+
+
+.image2{
+    position: relative;
+    left: 45%;
+    top: 100px;
+}
+
+    
+    
