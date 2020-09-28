@@ -7,6 +7,8 @@
 
 body{
     min-height: 90vh;
+    
+
 }
 
 
@@ -15,21 +17,15 @@ html {
 }
     
 
+
+
+
+
+
 .lo{
     font-size: 2.6rem;
     cursor: pointer;
     flex: 2 1 40rem;
-}
-
-.GESTE{
-    position: relative;
-    text-align: center;
-}
-
-h1{
-    font-size: 4.3rem;
-    color:white;
-    position: relative;
 }
 
 
@@ -39,24 +35,16 @@ h2{
 
 
 h3{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 
-h4,h5 {
-    font-size: 2.6rem;
-}
-
-nav{
-
-    font-size: 2rem;
-}
-a {
-    color:#ffffff ;
+/* HEAD */
+a{
+    color: white;
     text-decoration: none;
 }
 
-/* HEAD */
 .main-headd {
     background:linear-gradient(
     to right,
@@ -82,7 +70,7 @@ a {
 }
 
 
-
+/*button header*/
 nav{
     min-height: 10vh;
     display: flex;
@@ -90,6 +78,7 @@ nav{
     width: 90%;
     margin: auto;
     padding: 2rem;
+    font-size: 2rem;
 }
 nav ul{
     display: flex;
@@ -98,25 +87,10 @@ nav ul{
     align-items: center;
     list-style: none;
 }
-*
-/* HERO */
-.lol{
-    background: url(https://www.leparisien.fr/resizer/ZEvojSdmUvBbUiqNQ0Tt-mxnAyw=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/37ZORK2JC4KIIEH7YVSFTNZSJY.jpg) no-repeat;
-    min-height: 90vh;
-    background-size: 100%;
 
-}
-.cont{
-    background:black;
-    min-height: 90vh;
-    background-size: 100%; 
-    background-position: center;
-    font-size: 3rem;
-    text-align: left;
-    color: #ffffff;
-    font-family: Poppins,sans-serif;
-    
-    }
+/* HERO */
+
+
 .hero{
     min-height: 90vh;
     background: linear-gradient(rgb(0 , 0 , 0, 0.6), transparent), url(https://cdn.radiofrance.fr/s3/cruiser-production/2019/05/deca3a43-3783-4c65-b0b9-76e07c86a0eb/870x489_maxnewsworldfour555169.jpg)no-repeat center;
@@ -133,7 +107,7 @@ nav ul{
     padding: 4rem;
 }
 
-.button {
+.hero a {
     padding: 2rem 6rem;
     background:red ;
     color: #ffffff;
@@ -141,20 +115,47 @@ nav ul{
     cursor: pointer;
     border-radius: 50px;
 }
+/*contact*/
+.cont{
+    background:black;
+    min-height: 90vh;
+    background-size: 100%; 
+    background-position: center;
+    font-size: 3rem;
+    text-align: left;
+    color: #ffffff;
+    font-family: Poppins,sans-serif;
+    
+}
+
 .texte1{
     position: relative;
-    right: 150px;
+    left: -85px;
     color: #ffffff;
-    font-weight: bold;
+    font-family: "Antic Slab";
     
 }
 .texte2{
     position: relative;
-    right: 150px;
+    left: -85px;
     bottom: 70px;
-    color: #ffffff
-    ;
-    font-weight: bold;
+    color: #ffffff;
+    font-family: "Antic Slab";
+
+}
+/*coronavirus*/
+.lol h1{
+    font-size: 4.3rem;
+    color:white;
+    position: relative;
+
+    text-align: center;
+}
+.lol{
+    background: url(https://www.leparisien.fr/resizer/ZEvojSdmUvBbUiqNQ0Tt-mxnAyw=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/37ZORK2JC4KIIEH7YVSFTNZSJY.jpg) no-repeat;
+    min-height: 90vh;
+    background-size: 100%;
+
 }
 
 .image3{
@@ -175,6 +176,155 @@ nav ul{
     left: 45%;
     top: 100px;
 }
+/*activités*/
+.container{
+    position:absolute ;
+    top: 40%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    
+    padding: 30px;
+    background:#ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    font-size: 4.5rem;
+    
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background: url(https://cdn-media.rtl.fr/cache/gxgDstg9FMbr2zcDHU4sHQ/880v587-0/online/image/2019/1206/7799634528_une-carte-illimite-ugc-illimite-21-90-mois-ou-gaumont-pathe-22-90-mois-pour-les-amoureux-des-salles-obscures-les-offres-sont-plus-interessante-pour-des-cartes-duo.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 30px;
+}
+.citoy{
+    color: red;
+    font-size: 30px;
+}
+
+.container2 {
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    font-size: 4.5rem;}
+
+    .circle2{
+        width: 200px;
+        height: 200px;
+        background: url(https://www.123brocante.com/assets/img/manifestations/brocante-5.jpg);
+        background-size: 100% 100%;
+        border-radius: 50%;
+        float: left;
+        shape-outside: circle();
+        margin: 30px;}
 
     
+    
+    .citoy2 {
+        color: red;
+        font-size: 30px;
+    }
+
+    .container3 {
+        position: absolute;
+        left: 50%;
+        right: 50px;
+        bottom: -200px;
+        transform: translate(-50%,-50%);
+        width: 500px;
+        padding: 30px;
+        background: #ffffff;
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 0 15px 50px rgba(0,0,0,.2);
+        font-size: 4.5rem;}
+    
+        .circle3{
+            width: 200px;
+            height: 200px;
+            background: url(https://woody.cloudly.space/app/uploads/nancy/2019/02/thumbs/jardin-gaudron-0144regine-datin-1920x960.jpg);
+            background-size: 100% 100%;
+            border-radius: 50%;
+            float: left;
+            shape-outside: circle();
+            margin: 30px;}
+    
+        
+        
+        .citoy3 {
+            color: red;
+            font-size: 30px;
+        }
+        /*boutton epitech*/
+        .title1 h1{
+            font-size: 50px;
+            line-height: 42px;
+            color:#ffffff;
+            text-align: center;
+            font-family: "Bebas neue";
+
+        }
+
+        .title1{
+            background:#12508F ;
+            background-size: 100% 100%;
+            min-height: 90vh;
+            
+            }
+        .title1 h3{
+            font-size: 25px;
+            color: #ffffff;
+            font-weight: normal;
+        }
+        .title1 h2{
+            color: #ee1f1f;
+            font-weight: normal;
+        }
+        
+        .title1 h4{
+            position: relative;
+            right: 40px;
+            bottom: 240px;
+            font-size: 4.8rem;
+            font-weight: normal;
+            color: #ffffff;
+            text-align: right;
+        }
+        .title1 p{
+            position: relative;
+            right: 40px;
+            bottom: 240px;
+            font-size: 25px;
+            font-weight: normal;
+            text-align: right;
+            color: #ffffff;
+
+        }
+        .title1 img{
+            position: relative;
+            left: 550px;
+            bottom:270px;
+        }
+        .title1 h5{
+            text-align:center;
+            font-size: 4.8rem;
+            position: relative;
+            top: 240px;
+            color: #ffffff;
+        }
+  
+       
+        
     
