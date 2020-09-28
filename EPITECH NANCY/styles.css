@@ -280,9 +280,11 @@ nav ul{
         .title1 h2{
             color: #ffffff;
             font-weight: normal;
+            font-size: 4rem;
+            margin-left: 10px;
         }
-        
-        .title1 h4{
+       
+         .title1 h4 {
             position: relative;
             right: 40px;
             bottom: 240px;
