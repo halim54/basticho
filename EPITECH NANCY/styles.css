@@ -1,47 +1,43 @@
-* {
+
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
+ 
 body{
     min-height: 90vh;
 }
 
-
 html {
     font-size: 62.5%;
 }
+
+
+
     
 
 
 
 
 
-
+/*nancy*/
 .lo{
     font-size: 2.6rem;
     cursor: pointer;
     flex: 2 1 40rem;
 }
-
-
-h2{
-    font-size: 4.8rem;
-}
-
-
-h3{
-    font-size: 4rem;
-}
-
-
-/* HEAD */
 a{
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+/* HEAD */
+
 
 .main-headd {
     background:linear-gradient(
@@ -94,7 +90,6 @@ nav ul{
     background: linear-gradient(rgb(0 , 0 , 0, 0.6), transparent), url(https://cdn.radiofrance.fr/s3/cruiser-production/2019/05/deca3a43-3783-4c65-b0b9-76e07c86a0eb/870x489_maxnewsworldfour555169.jpg)no-repeat center;
     background-size: cover;
     background-position:bottom ;
-    color:#ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,7 +97,9 @@ nav ul{
 }
 
 .hero h3{
-    padding: 4rem;
+   padding: 4rem;
+   font-size: 4rem;
+   color:#ffffff;
 }
 
 .hero a {
@@ -117,8 +114,6 @@ nav ul{
 .cont{
     background:black;
     min-height: 90vh;
-    background-size: 100%; 
-    background-position: center;
     font-size: 3rem;
     text-align: left;
     color: #ffffff;
@@ -146,13 +141,13 @@ nav ul{
     font-size: 4.3rem;
     color:white;
     position: relative;
-
     text-align: center;
 }
 .lol{
     background: url(https://www.leparisien.fr/resizer/ZEvojSdmUvBbUiqNQ0Tt-mxnAyw=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/37ZORK2JC4KIIEH7YVSFTNZSJY.jpg) no-repeat;
     min-height: 90vh;
     background-size: 100%;
+    
 
 }
 
@@ -181,12 +176,10 @@ nav ul{
     right: 50%;
     transform: translate(-50%,-50%);
     width: 600px;
-    
-    padding: 30px;
-    background:#ffffff;
-    box-sizing: border-box;
+    padding: 15px;
+    background:#4954e9;
     border-radius: 10px;
-    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    box-shadow: 0 15px 50px rgba(0, 250, 33, 0.2);
     font-size: 4.5rem;
     
 }
@@ -201,7 +194,7 @@ nav ul{
     margin: 30px;
 }
 .citoy{
-    color: red;
+    color: #ffffff;
     font-size: 30px;
 }
 
@@ -211,11 +204,10 @@ nav ul{
     top: 40%;
     transform: translate(-50%,-50%);
     width: 600px;
-    padding: 30px;
-    background: #ffffff;
-    box-sizing: border-box;
+    padding: 15px;
+    background: #4954e9;
     border-radius: 10px;
-    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    box-shadow: 0 15px 50px rgba(0,250,33, 0.2);
     font-size: 4.5rem;}
 
     .circle2{
@@ -231,7 +223,7 @@ nav ul{
     
     
     .citoy2 {
-        color: red;
+        color: #ffffff;
         font-size: 30px;
     }
 
@@ -242,11 +234,10 @@ nav ul{
         bottom: -200px;
         transform: translate(-50%,-50%);
         width: 500px;
-        padding: 30px;
-        background: #ffffff;
-        box-sizing: border-box;
+        padding: 15px;
+        background: #4954e9;
         border-radius: 10px;
-        box-shadow: 0 15px 50px rgba(0,0,0,.2);
+        box-shadow: 0 15px 50px rgba(0,250,33, 0.2);
         font-size: 4.5rem;}
     
         .circle3{
@@ -262,7 +253,7 @@ nav ul{
         
         
         .citoy3 {
-            color: red;
+            color:#ffffff;
             font-size: 30px;
         }
         /*boutton epitech*/
@@ -287,7 +278,7 @@ nav ul{
             font-weight: normal;
         }
         .title1 h2{
-            color: #ee1f1f;
+            color: #ffffff;
             font-weight: normal;
         }
         
